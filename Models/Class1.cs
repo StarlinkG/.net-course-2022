@@ -9,8 +9,7 @@
     }
     public class Employee : Person
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+       
         public string Contract { get; set; }
     }
 
@@ -21,8 +20,8 @@
 
     public struct Currency
     {
-        public string WalletName { get; set; }
-        public int WalletValue { get; set; }
+        public string Name { get; set; }
+        public int Value { get; set; }
 
     }
 
